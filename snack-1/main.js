@@ -21,11 +21,9 @@ const allCars = [
 
 
 const alimDiesel = allCars.map((aliment) => {
-    if(aliment == aliment.diesel){
-        return true;
-    }
-        return false
-})
+    if (aliment.diesel == 'diesel'){
+        console.log(alimDiesel);}
+    })
 
-console.log(alimDiesel);
-    
+
+
